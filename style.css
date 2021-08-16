@@ -16,3 +16,40 @@ h1 {
     color: blue;
     font-weight: 900;
 }
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1800px;
+    min-height: 125px;
+    padding: 40px 180px;
+    margin: 0 auto 100px;
+    position: relative;
+    
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    min-height: 45px;
+    width: 60%;
+}
+
+.sign-in-sign-up {
+    display: flex;
+    align-items: center;
+}
+
+    .sign-in-sign-up > button {
+        background-color: #d39410;
+        border: none;
+        border-radius: 20px;
+        width: 100px;
+        height: 54px;
+        margin: 10px;
+    }
