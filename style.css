@@ -11,3 +11,8 @@
 body {
     font-size: 1.6rem;
 }
+
+h1 {
+    color: blue;
+    font-weight: 900;
+}
